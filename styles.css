@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(224, 181, 124);
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+}
+
+#quote-box {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10%;
+    height: 50%;
+    width: 45%;
+    background-color: white;
+    opacity: 0.85;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(38, 38, 38, 0.5);
+}
+
+#quote-box img {
+    filter: opacity(0.3) drop-shadow(0 0 0 rgb(224, 181, 124));
+}
+
+#text {
+    width: 75%;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    font-size: 1.7rem;
+    font-weight:500;
+    line-height: 1.4;
+    padding-top: 40px;
+    color: rgb(224, 181, 124);
+}
+
+#text img {
+    width: 40px;
+    height: 40px;
+
+}
+
+#author {
+    text-align: end;
+    margin-right: 10%;
+    font-size: 1.1rem;
+    color: rgb(224, 181, 124);
+}
+
+#new-quote {
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px 15px;
+    background-color: rgb(224, 181, 124);
+    color: #ffff;
+    box-shadow: 0px 3px 8px 0px rgba(38, 38, 38, 0.5);
+}
+
+#new-quote:hover{
+    box-shadow: 0px 5px 10px 2px rgba(38, 38, 38, 0.25);
+    transform: translateY(-3px);
+  }
+
+i {
+    font-size: 40px;
+    color: #e0b57c;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 15%;
+}
+.left {
+    float: left;
+    margin-left: 13%;
+}
+
+.right {
+    float: right;
+    margin-right: 10%;
+}
+
+#footer {
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #ffff;
+    opacity: 0.7;
+}
